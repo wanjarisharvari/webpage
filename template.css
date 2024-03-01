@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FF8C00;
+    /*color: #fff;*/
+    line-height: 1.6;
+    animation: fadeIn ease 1s;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(to right, #ffb01f, #ffc14d);
+    padding: 40px 0;
+    text-align: center;
+    /*color: #fff;*/
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    animation: slideInDown ease 1s;
+}
+
+header p {
+    font-size: 1.2em;
+    animation: slideInUp ease 1s;
+}
+
+#about {
+    background: linear-gradient(to right, #ffc14d, #ffd17a);
+    padding: 60px 0;
+    animation: fadeInUp ease 1s;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    animation: slideInRight ease 1s;
+}
+
+#about p {
+    font-size: 1.1em;
+}
+
+#projects {
+    background: linear-gradient(to right, #ffd17a, #ffe1a8);
+    padding: 60px 0;
+    animation: fadeInUp ease 1s;
+}
+
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    animation: slideInDown ease 1s;
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #fff1d6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: zoomIn ease 1s;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+footer {
+    background: linear-gradient(to right, #ffb01f, #ffc14d);
+    /*color: #fff;*/
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    animation: fadeIn ease 1s;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
