@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #container{
+      display :flex;
+      height :500px;
+      width :100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+       
+    }
+    .box {
+      height: 250px;
+      color: black;
+      background-color: rgb(225, 255, 255);
+      border: solid;
+      border-color: rgb(0, 255, 255);
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px;
+      margin-top: 40px;
+      display:block;
+      width :40% ;
+      
+
+
+    }
+
+
+    h1 {
+      color: rgb(244, 114, 242);
+      text-align: center;
+      margin-top: 3px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    /*header{
+      position: fixed;
+      width : 100% ;
+    }*/
+
+    .navbar {
+       
+      background-color: rgb(225, 255, 255);
+      height: 50px;
+      border-radius: 20px;
+      margin-left: 20px;
+      margin-left: 20px;
+
+    }
+
+    .navbar ul {
+      overflow: auto;
+    }
+
+    .navbar li {
+      list-style: none;
+      float: left;
+      margin: 10px 20px;
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: black;
+      padding: 10px 10px;
+    }
+
+    .navbar li:hover {
+      background-color: rgb(0, 255, 255);
+    }
+
+    #searchbox {
+      float: right;
+      margin-right: 20px;
+      margin-top: 15px;
+    }
+     
+     
+
+    #last{
+      width : 83%;
+       
+    }
+
+     
+  </style>
+
+</head>
+
+<body>
+
+
+  
+  <header>
+    <h1>MY WEBPAGE </h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">professional</a></li>
+        <li><a href="#">contact</a></li>
+
+        <input type="text" name="search" id="searchbox" placeholder="type here to search">
+
+      </ul>
+    </nav>
+  </header>
+  <img src="IMG-20230505-WA0012.jpg">
+  <div id="container">
+    <div class="box">
+      <h1> Know more about me </h1>
+      <p> Hello i am Sharvari. I am currently a sophomore student of IIT Kharagpur enrolled in its dual degree course of
+        computer science and eingineering.
+        I will be graduating in the year 2027. I am a boarder of MT hall of residence. originally i am from nagpur.
+      </p>
+    </div>
+    <div class="box">
+      <h1>My interests</h1>
+      <p>I am kind of introvert person but open up to people with similar interest and good nature. As of now i am
+        still studying and is undecided about my interests and future field of carrear. I am interested in astronomy and
+        space science. i love to
+        talk and have a deep conversation on science and physics related topics. I am a curious person and always
+        willing to learn something new.
+      </p>
+    </div>
+
+
+    <div class="box">
+      <h1>professional skills</h1>
+      <ul>
+        <li>C, C++, JAVA programming languange and basics of Python </li>
+        <li>HTML and CSS as a beginner </li>
+        <li>CAD software application mainly solidworks usage </li>
+        <li>practice problem solving ussing leetcode</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h1>Lifestyle</h1>
+      <p>I like to keep my everyday systematic and scheduled to avoid last minute chaos and wasting time. I am very good
+        at managing time and follow a
+        strict schedule of waking up early and sleeping early. i love to carry experiments with my current schedule to
+        see what best suits me. I even love to play sport mainly volleyball.
+      </p>
+    </div>
+   
+
+   <div class="box" id="last">
+    <h1>Connection links</h1>
+    <p id="connection links">To connect with me please follow the links: <br>
+      <a href="https://www.instagram.com/"> instagram </a><br>
+      <a href="https://www.linkedin.com/feed/">linkedin</a><br>
+      <a href="https://www.facebook.com">facebook</a><br>
+      <a href="https://www.gmail.com">e mail</a>
+    </p>
+   </div>
+  </div>
+</body>
+
+</html>
